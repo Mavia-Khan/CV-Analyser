@@ -8,7 +8,7 @@ import pdf2image
 import google.generativeai as genai
 
 # Load environment variables
-genai.configure(api_key=st.secrets["general"]["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 
 # Define the input prompt
